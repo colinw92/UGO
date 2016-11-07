@@ -1,0 +1,294 @@
+.bhl-adbanner {
+  padding-top: 40px;
+}
+.bhl-adbanner .bhl-discount {
+  padding-left: 10px;
+  height: 77px;
+}
+.bhl-adbanner .bhl-discount .bhl-ticket {
+  margin-right: 10px;
+  width: 237px;
+  height: 77px;
+  background-color: red;
+  display: block;
+}
+.bhl-adbanner .bhl-discount .bhl-ticket:nth-child(1) {
+  background: url("../images/10coupon.png");
+}
+.bhl-adbanner .bhl-discount .bhl-ticket:nth-child(2) {
+  background: url("../images/30coupon.png");
+}
+.bhl-adbanner .bhl-discount .bhl-ticket:nth-child(3) {
+  background: url("../images/50coupon.png");
+}
+.bhl-adbanner .bhl-discount .bhl-ticket:nth-child(4) {
+  background: url("../images/100coupon.png");
+}
+.bhl-adbanner .bhl-slogan {
+  padding-top: 40px;
+  height: 94px;
+}
+.bhl-adbanner .bhl-slogan .bhl-riven {
+  height: 94px;
+  width: 220px;
+  margin-Left: 40px;
+}
+.bhl-adbanner .bhl-slogan .bhl-riven:nth-child(1) {
+  background: url("../images/slogon1.png") no-repeat;
+  margin-Left: 0px;
+}
+.bhl-adbanner .bhl-slogan .bhl-riven:nth-child(2) {
+  background: url("../images/slogon2.png") no-repeat;
+}
+.bhl-adbanner .bhl-slogan .bhl-riven:nth-child(3) {
+  background: url("../images/slogon3.png") no-repeat;
+}
+.bhl-adbanner .bhl-slogan .bhl-riven:nth-child(4) {
+  background: url("../images/slogon4.png") no-repeat;
+}
+.bhl-adbanner .bhl-newArrive .bhl-line {
+  margin-top: 40px;
+  height: 37px;
+  width: 100%;
+  text-align: center;
+  background: url("../images/line.png") no-repeat center center;
+}
+.bhl-adbanner .bhl-newArrive .bhl-line h2 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 7px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-line p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #aaa;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct {
+  height: 360px;
+  margin-top: 40px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste {
+  width: 230px;
+  height: 328px;
+  text-align: center;
+  position: relative;
+  padding: 14px 10px 18px 10px;
+  background-color: #fff;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  margin-left: 10px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste .bhl-newImg {
+  height: 218px;
+  line-height: 218px;
+  margin-bottom: 37px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste .bhl-newImg img {
+  vertical-align: bottom;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste a {
+  font-size: 14px;
+  color: #000;
+  word-wrap: break-word;
+  white-space: nowrap;
+  width: 230px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste a:hover {
+  text-decoration: underline;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste p {
+  padding: 0 34px 0 22px;
+  height: 23px;
+  margin-top: 18px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste p span:nth-child(1) {
+  color: #e50020;
+  font-size: 23px;
+  float: left;
+  line-height: 23px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste p span:nth-child(1) i {
+  color: #e50020;
+  font-size: 18px;
+  line-height: 23px;
+  font-style: normal;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste p .bhl-count {
+  width: 58px;
+  height: 23px;
+  display: inline-block;
+  background: url("../images/count.png") no-repeat;
+  color: #fff;
+  line-height: 23px;
+  text-align: center;
+  font-size: 16px;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste::before {
+  content: "新款尝鲜";
+  position: absolute;
+  width: 34px;
+  height: 46px;
+  top: 0px;
+  left: 10px;
+  text-align: center;
+  color: #fff;
+  line-height: 14px;
+  background: url("../images/newicon.png") no-repeat;
+}
+.bhl-adbanner .bhl-newArrive .bhl-newProduct .newTaste:not(:nth-child(4))::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 24px;
+  width: 1px;
+  height: 300px;
+  background-color: #cccccc;
+}
+.bhl-adbanner .bhl-momBaby .bhl-line {
+  margin-top: 40px;
+  height: 37px;
+  width: 100%;
+  text-align: center;
+  background: url("../images/line.png") no-repeat center center;
+}
+.bhl-adbanner .bhl-momBaby .bhl-line h2 {
+  font-size: 36px;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 7px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-line p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #aaa;
+}
+.bhl-adbanner .bhl-momBaby .bhl-dogCat {
+  margin-top: 40px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momTab {
+  width: 100%;
+  border-top: 2px solid #000;
+  margin-bottom: 26px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momTab li {
+  float: left;
+  width: 248px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  color: #000;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  border-top-color: #000;
+  position: relative;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momTab li.lix {
+  background-color: #000;
+  color: white;
+  border-color: #000;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momTab li.lix::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+  transform: translateX(33px) rotateZ(45deg);
+  z-index: -1;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp {
+  display: none;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li {
+  width: 193px;
+  height: 318px;
+  float: left;
+  background-color: #fff;
+  text-align: center;
+  padding: 19px 21px 13px;
+  margin-right: 20px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li div {
+  height: 200px;
+  line-height: 200px;
+  margin-bottom: 29px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li div img {
+  vertical-align: bottom;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momTitle {
+  font-size: 14px;
+  color: #000;
+  word-wrap: break-word;
+  white-space: nowrap;
+  width: 193px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momTitle span {
+  color: #ff0000;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momYu {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 11px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momBuy .bhl-momPrice {
+  color: #e50020;
+  font-size: 23px;
+  float: left;
+  line-height: 30px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momBuy .bhl-momPrice i {
+  color: #e50020;
+  font-size: 18px;
+  line-height: 23px;
+  font-style: normal;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li .bhl-momBuy .bhl-buyNow {
+  width: 76px;
+  height: 30px;
+  display: block;
+  background-color: #e50020;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  float: right;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp li:last-child {
+  margin-right: 0px;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momExp.now {
+  display: block;
+}
+.bhl-adbanner .bhl-momBaby .bhl-momMore {
+  width: 300px;
+  height: 50px;
+  background-color: #000;
+  font-size: 24px;
+  line-height: 50px;
+  margin: 30px auto 0;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.bhl-adbanner .bhl-footImage {
+  margin-top: 50px;
+}

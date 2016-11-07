@@ -1,0 +1,187 @@
+body {
+    min-width: 1200px;
+    background-color: #fff;
+}
+.y-header {
+    height: 30px;
+    background-color:#EDEDED;
+}
+/*logo部分*/
+.login-logo {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+
+}
+.login-logo .logo{
+    display: block;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.login-logo .ugo {
+    margin-top: 50px;
+}
+
+/*登录注册部分*/
+.login {
+    width: 100%;
+    height: 450px;
+    background: url("../images/bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.login-loginbg {
+    width: 1200px;
+    height: 598px;
+    margin: 0 auto;
+    position: relative;
+}
+.login-loginbg .login_l-r {
+    width: 380px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.login-loginbg .login_l-r .login_sel p {
+    font-size: 28px;
+    color: #666;
+    text-align: center;
+    width: 50%;
+    height: 55px;
+    line-height: 55px;
+    cursor: pointer;
+    background-color: #EFEDED;
+}
+.login-loginbg .login_l-r .login_sel .p2 {
+    /*box-shadow:-4px 0 4px #D1D0D0;*/
+}
+.login-loginbg .login_l-r .login_sel .active {
+    color: #A90000;
+    background-color: #fff;
+}
+
+/*登录信息*/
+.login-loginbg .login_l-r .login_info {
+    padding: 32px 45px 0 55px;
+    display: none;
+}
+.login-loginbg .login_l-r .login_info b{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.login-loginbg .login_info .login_user {
+    border: 1px solid #b5b5b5;
+    border-radius: 9px;
+    background-color: #fff;
+}
+.login-loginbg .login_info .login_user > span {
+    border-radius: 9px 0 0 9px;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    display: inline-block;
+    border-right: 1px solid #b5b5b5;
+}
+.login-loginbg .login_info .login_user .b1 {
+    background: url("../images/usericon.png") no-repeat center center;
+}
+.login-loginbg .login_info .login_password {
+    margin-top: 25px;
+    border: 1px solid #b5b5b5;
+    border-radius: 9px;
+}
+.login-loginbg .login_info .login_password > span {
+    border-radius: 9px 0 0 9px;
+    height: 50px;
+    width: 50px;
+    background-color: #eee;
+    display: inline-block;
+    border-right: 1px solid #b5b5b5;
+}
+.login-loginbg .login_info .login_password .b2 {
+    background: url("../images/pwdicon.png") no-repeat center center;
+}
+.login-loginbg .login_info .input {
+    height: 50px;
+    width: 195px;
+    padding-left: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+    outline-style: none;
+    border: none;
+}
+.login-loginbg .login_info p {
+    height: 35px;
+    padding-top: 25px;
+}
+.login-loginbg .login_info p a{
+    font-size: 12px;
+    color: #666;
+}
+.login-loginbg .login_info button {
+    width: 270px;
+    height: 50px;
+    background-color: #A90000;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline-style: none;
+}
+/*tab*/
+.login .login-loginbg  .login_l-r .qrcode {
+    text-align: center;
+    padding-top: 55px;
+    display: none;
+}
+.login .login-loginbg  .selected {
+    display: block!important;
+}
+
+.login_footer {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.login_footer a {
+    display: inline-block;
+    margin:0 5px;
+    padding-right: 10px;
+    text-align: center;
+    border-right: 3px solid #CBCBCB;
+}
+.login_footer .login_footer_link .rule {
+    border: none;
+}
+.login_footer p {
+    margin-top: 10px;
+}
+
+.login .login_l-r .tips {
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    background-color: pink;
+    font-size: 16px;
+    line-height: 30px;
+    color: #A90000;
+    display: none;
+}
+.login .login_l-r .regist {
+    display: block;
+    width: 270px;
+    height: 30px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 30px;
+    color: #A90000;
+    margin-top: 5px;
+}
+
+

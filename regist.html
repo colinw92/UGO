@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src='js/jquery.js'></script>
+    <script type="text/javascript" src="js/regist.js"></script>
+</head>
+
+<body>
+    <div class="f_top w">
+        <a href="#">
+            <div class="f_top_l fl"></div>
+        </a>
+        <div class="f_top_r fr"></div>
+    </div>
+    <div class="f_box w">
+        <ul>
+            <li>
+                <div class="f_lock"></div>
+                <input type="tel" placeholder="请输入手机号" name="phone" class="f_phone">
+                <span class="phonError err">手机号码不正确</span>
+            </li>
+            <li>
+                <div class="f_lock"></div>
+                <input type="password" placeholder="请输入6~16位密码 区分大小写" name="pwd" class="f_pwd">
+                <span class="pwdError err">密码不正确</span>
+            </li>
+            <li>
+                <div class="f_lock"></div>
+                <input type="password" class="r_pwd" name="rpwd" placeholder='请再次输入密码'>
+            </li>
+            <li class="f_text">
+                <div class="f_lock"></div>
+                <input type="text" placeholder='请输入验证码' id="f_text_code">
+                <button class="f_click fr">点击获取验证码</button>
+            </li>
+            <p>用户注册即代表同意《服务条款》和《网络游戏用户
+                <br>
+                <br> 隐私保护和个人信息利用政策》
+            </p>
+        </ul>
+        <input type="submit" id="register" class="f_regist" value="注册" />
+        <p class="f_login">已有账号？立即<a href="login.html">登录</a></p>
+    </div>
+    <div class="f_foot w">
+        <p>关于优购 　| 　 优购招聘 　 | 　 网站地图 　 | 　所有帮助 　| 海外招商中心 | 　扫货买手规则　 |　　卖家常见问题</p>
+        <p class="f_company">优购公司版权所有&copy;1997-2016</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,266 @@
+@color_red:#A90000;
+.top_height{
+  height: 40px;
+  line-height: 40px;
+}
+.m_l19{
+  margin-left: 19px;
+}
+
+//header start
+.oy_top{
+  background-color: #EEEEEE;
+  height: 40px;
+  .oy_header{
+    height: 100%;
+    .oy_header_left{
+      height: 100%;
+      span{
+        float: left;
+        .top_height
+      }
+      a{
+        float: left;
+        .top_height;
+        .m_l19;
+      }
+      a:nth-child(3){
+        color:@color_red;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    .oy_header_right{
+      ul{
+        li{
+          float: left;
+          .top_height;
+          .m_l19;
+          .arr_b{
+            margin: 16px 2px 0 4px;
+            float: right;
+            width: 12px;
+            height: 6px;
+            background: url("../images/sprite.png") no-repeat 0 -25px;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+        li:last-child{
+          a{
+            color:@color_red;
+          }
+        }
+      }
+    }
+  }
+}
+//header end
+
+.h_100{height: 100px;}
+//search start
+.oy_search{
+  .h_100;
+  .oy_logo{
+    .h_100;
+    width: 400px;
+    a{
+      display: block;
+      width: 301px;
+      padding-top: 62px;
+      height: 0px;
+      overflow: hidden;
+      background: url("../images/oy-homelogo.png") no-repeat;
+      margin:19px 0 ;
+    }
+  }
+  .oy_search_box{
+    width: 396px;
+    height: 36px;
+    margin-top: 25px;
+    border:2px solid @color_red;
+    input{
+      height: 100%;
+      width: 313px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      padding-left: 5px;
+    }
+    button{
+      border: none;
+      width: 78px;
+      height: 100%;
+      background-color: @color_red;
+      color: #ffffff;
+      font-size: 16px;
+    }
+  }
+  .oy_myCar{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+    margin:35px 0 ;
+    position: relative;
+    background-color: #EEEEEE;
+    .oy_myCar_car{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: url("../images/sprite.png") no-repeat 0 0;
+      left: 7px;
+      top: 3px;
+    }
+    a{
+      margin-left: 32px;
+      line-height: 30px;
+    }
+  }
+  .oy_search_links{
+    height: 20px;
+    width: 370px;
+    line-height: 20px;
+    font-size: 11px;
+    padding-left: 30px;
+    a{
+      padding: 0 9px;
+    }
+  }
+}
+//search end
+
+//nav  start
+.oy_nav{
+  height: 36px;
+  border-bottom: 4px solid #000000;
+  .oy_nav_box{
+    height: 40px;
+    .oy_nav_pro{
+      height:100%;
+      width: 160px;
+      background-color: #000000;
+      .oy_nav_total{
+        a{
+          display: block;
+          height: 40px;
+          line-height: 40px;
+          font-size: 16px;
+          color: #ffffff;
+          ul{
+            width: 16px;
+            height: 14px;
+            float: left;
+            margin: 13px 10px 0 35px;
+            li{
+              border-top: 2px solid #ffffff;
+              margin-bottom: 4px;
+            }
+          }
+        }
+      }
+    }
+    .oy_nav_lists{
+      height: 100%;
+      li{
+        float: left;
+        margin-left: 39px;
+        font-size: 16px;
+        line-height: 40px;
+        a{
+          color: #000000;
+        }
+
+      }
+    }
+  }
+}
+//nav end
+
+//footer-banner start
+.oy_footer-banner{
+  margin:50px 0 14px;
+  text-align: center;
+
+}
+//footer-banner end
+
+//footer start
+.oy_footer{
+  background-color: #000000;
+  .oy_footer_top{
+    padding-bottom: 20px;
+    .oy_footer_left{
+      padding-top: 30px;
+      dl{
+        margin-left: 80px;
+        width: 100px;
+        dt{
+          font-size: 15px;
+          color: #ffffff;
+          height: 35px;
+        }
+        dd{
+          height: 24px;
+          a{
+            font-size: 12px;
+            color: #CCCCCC;
+          }
+          a:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .oy_footer_right{
+      width: 220px;
+      .oy_footer_rt{
+        width: 139px;
+        height: 62px;
+        display: block;
+        margin: 30px 0 23px 24px ;
+        background: url("../images/oy-footlogo.png") no-repeat;
+      }
+      p{
+        float: left;
+        font-size: 12px ;
+        color: #ffffff;
+        line-height: 39px;
+      }
+      .oy_footer_weibo{
+        float: left;
+        width: 44px;
+        height: 35px;
+        background: url("../images/oy-footcontact.png") no-repeat 0 0;
+        margin: 0 17px 0 24px;
+      }
+      .oy_footer_weixin{
+        float: left;
+        width: 42px;
+        height: 36px;
+        background: url("../images/oy-footcontact.png") no-repeat -68px -3px;
+      }
+    }
+  }
+  .oy_footer_links{
+    text-align: center;
+    height: 34px;
+    color: #ffffff;
+    a{
+      padding: 0 16px 0 14px;
+      color: #ffffff;
+    }
+  }
+
+}
+
+//footer end
+
+
+
+
+
+
+
+

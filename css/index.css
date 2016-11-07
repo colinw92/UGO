@@ -1,0 +1,380 @@
+body {
+    background-color: #f5f5f5;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/*topnav*/
+.yg-topnav {
+    height: 40px;
+    line-height: 40px;
+    background-color: #eee;
+}
+.yg-topnav .fl a {
+    margin-left: 10px;
+}
+.yg-topnav .yg-register {
+    color: #a90000;
+}
+.yg-topnav ul {
+
+}
+.yg-topnav ul li {
+    float: left;
+    margin-right: 19px;
+}
+.yg-topnav ul li a span{
+    font-family: "Consolas";
+}
+.yg-topnav ul li:last-child {
+    margin-right: 0;
+}
+.yg-topnav ul li:last-child a {
+    color: #a90000;
+}
+/*logo*/
+.yg-logo {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.yg-logo h1 {
+    /*text-indent: -999px;*/
+    float: left;
+}
+.yg-logo h1 a {
+    display: inline-block;
+}
+.yg-logo h1 a img {
+    display: block;
+}
+.yg-search {
+    float: left;
+    margin-left: 118px;
+    padding-top: 6px;
+}
+.yg-search-box {
+    float: left;
+}
+.yg-search-box input {
+    width: 300px;
+    height: 32px;
+    border: 2px solid #a90000;
+    outline-style: none;
+    font-size: 16px;
+    color: #999;
+    padding: 0 9px;
+    float: left;
+}
+.yg-search-box button {
+    width: 80px;
+    height: 36px;
+    background-color: #a90000;
+    border: none;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+}
+.yg-search ul {
+    padding-left: 30px;
+    line-height: 20px;
+}
+.yg-search ul li {
+    float: left;
+}
+.yg-search ul li span {
+    margin: 0 6px;
+}
+.yg-shopcar {
+    width: 64px;
+    height: 28px;
+    border: 1px solid #bbb;
+    float: right;
+    margin-top: 16px;
+    position: relative;
+    padding-left: 34px;
+    background-color: #eee;
+    line-height: 28px;
+}
+.yg-shopcar a {
+    display: block;
+    color: #333;
+}
+.yg-shopcar i {
+    background: url("../images/shopcar.png");
+    width: 20px;
+    height: 20px;
+    display: inline;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+/*优惠券*/
+.yg-coupon {
+    margin-top: 40px;
+}
+.yg-coupon li {
+    width: 237px;
+    height: 77px;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+.yg-coupon li:first-child {
+    margin-left: 10px;
+}
+.yg-coupon li a {
+    display: block;
+}
+.yg-coupon li a img {
+    display: block;
+}
+/*slogon*/
+.yg-slogon {
+    margin-top: 40px;
+}
+.yg-slogon li {
+    float: left;
+    margin-right: 40px;
+}
+.yg-slogon li:last-child {
+    margin-right: 0;
+}
+/*新品上线*/
+.yg-title {
+    margin-top: 40px;
+    height: 36px;
+    display: inline-block;
+    width: 100%;
+    background: url("../images/line.png") no-repeat center center;
+    text-align: center;
+}
+.yg-title h2 {
+    font-size: 36px;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 7px;
+}
+.yg-title p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #aaa;
+}
+.yg-newup {
+    margin-top: 21px;
+}
+.yg-newup li {
+    float: left;
+    width: 230px;
+    height: 328px;
+    background: #fff;
+    text-align: center;
+    padding: 14px 10px 18px 10px;
+    position: relative;
+}
+.yg-newup li h4 {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    margin-left: 10px;
+}
+.yg-newup li .yg-newup-img {
+    height: 218px;
+    line-height: 218px;
+    margin-bottom: 37px;
+}
+.yg-newup li .yg-newup-img img {
+    vertical-align: bottom;
+}
+.yg-newup li a {
+    font-size: 14px;
+    color: #000;
+    word-wrap: break-word;
+    white-space: nowrap;
+    width: 230px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.yg-newup li a:hover {
+    text-decoration: underline;
+}
+.yg-newup li p {
+    padding: 0 34px 0 22px;
+    height: 23px;
+    margin-top: 18px;
+}
+.yg-newup li p .yg-newup-price {
+    color: #e50020;
+    font-size: 23px;
+    float: left;
+    line-height: 23px;
+}
+.yg-newup li p .yg-newup-price i {
+    color: #e50020;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: normal;
+}
+.yg-newup li p .yg-newup-count {
+    width: 58px;
+    height: 23px;
+    display: inline-block;
+    background: url("../images/count.png") no-repeat;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+    font-size: 16px;
+}
+.yg-newup-newicon {
+    background: url("../images/newicon.png");
+    width: 34px;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-style: normal;
+    color: #fff;
+    line-height: 14px;
+}
+.yg-newup-line {
+    display: inline-block;
+    height: 300px;
+    width: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 24px;
+    left: 250px;
+    z-index: 2;
+}
+/*母婴用品*/
+.yg-cat-banner {
+    margin-top: 20px;
+}
+.yg-cat-banner img {
+    display: block;
+}
+.yg-mom-tab {
+    width: 100%;
+    border-top: 2px solid #000;
+    margin-bottom: 26px;
+}
+.yg-mom-tab li {
+    float: left;
+    width: 248px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    position: relative;
+    border-top-color: #000;
+}
+.yg-mom-tab li span {
+    width: 0;
+    height: 0;
+    border-width: 15px 15px 15px 15px;
+    border-style: solid solid solid solid;
+    border-color: #000 transparent transparent transparent;
+    position: absolute;
+    left: 109px;
+    bottom: -30px;
+    display: none;
+}
+.yg-mon-coupon li {
+    width: 193px;
+    height: 318px;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+    padding: 19px 21px 13px;
+    margin-right: 20px;
+}
+.yg-mon-coupon li:last-child {
+    margin-right: 0;
+}
+.yg-mon-coupon h4 {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+}
+.yg-mon-coupon li > div {
+    height: 200px;
+    line-height: 200px;
+    margin-bottom: 29px;
+}
+.yg-mon-coupon li > div img{
+    vertical-align: bottom;
+}
+.yg-mon-coupon li .yg-mom-title {
+    font-size: 14px;
+    color: #000;
+    word-wrap: break-word;
+    white-space: nowrap;
+    width: 193px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.yg-mon-coupon li .yg-mom-title span {
+    color: #e50020;
+}
+.yg-mon-coupon li .yg-mom-desc {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
+.yg-mom-price {
+    color: #e50020;
+    font-size: 23px;
+    float: left;
+    line-height: 30px;
+}
+.yg-mom-price i {
+    color: #e50020;
+    font-size: 18px;
+    line-height: 23px;
+    font-style: normal;
+}
+.yg-mom-count {
+    width: 76px;
+    height: 30px;
+    display: inline-block;
+    background-color: #e50020;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+}
+.yg-more {
+    width: 300px;
+    height: 50px;
+    background-color: #000;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 30px auto 0;
+    color: #fff;
+    text-align: center;
+}
+/*底部图片*/
+.yg-footerimg {
+    text-align: center;
+    margin-top: 51px;
+}
+.yg-footerimg img{
+    display: block;
+    margin: 0 auto 20px;
+}
+/*底部*/
+.yg-footer {
+    height: 240px;
+    background-color: #000;
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loginaaa</title>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.js"></script>-->
+    <script src="js/login.js"></script>
+</head>
+<body>
+<!--logo-->
+<div class="login-logo clearfix">
+    <a href="#" class="logo f_left">
+        <img src="./images/logo.png" alt=""/>
+    </a>
+    <a href="#" class="ugo f_right">
+        <img src="./images/ugo.png" alt=""/>
+    </a>
+</div>
+<!--登录块-->
+<div class="login ">
+    <div class="login-loginbg clearfix">
+        <div class="login_l-r">
+            <div class="clearfix login_sel">
+                <p class="f_left p1">扫码登录</p>
+                <p class="f_right p2 active">账号登录</p>
+            </div>
+            <div class="login_info selected">
+                <div class="login_user">
+                    <span><b class="b1"></b></span><input type="text" placeholder="用户名/邮箱/手机号" class="input name" id='name' name='name'/>
+                </div>
+                <div class="login_password">
+                    <span><b class="b2"></b></span><input type="password" placeholder="密码" class="input password" id='password' name='name' />
+                </div>
+                <p class="forget clearfix">
+                    <input type="checkbox" id="chk" class="f_left" checked='checked'/>
+                    <label for="chk">记住账号</label>
+            <!--<a href="#" class=f_left">记住账号</a>-->
+            <a href="#" class="f_right">忘记密码？</a>
+            </p>
+            <button class="btn">登 录</button>
+
+                <a href="regist.html" class="regist">立即注册</a>
+                <div class="tips"></div>
+        </div>
+            <!--tab栏-->
+            <div class="qrcode">
+                <img src="./images/qrcode.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--底部-->
+<div class="w login_footer">
+    <div class="w login_footer_link">
+        <a href="#">关于优购</a>
+        <a href="#">优购招聘</a>
+        <a href="#">网站地图</a>
+        <a href="#">所有帮助</a>
+        <a href="#">海外招商中心</a>
+        <a href="#">扫货买手规则</a>
+        <a href="#" class="rule">扫货买手规则</a>
+    </div>
+   <p class="w">
+       优购公司版权所有&copy;1997-2016
+   </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+.f_top {
+    margin-top: 40px;
+}
+
+.f_top .f_top_l {
+    height: 68px;
+    width: 155px;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.f_top .f_top_r {
+    width: 274px;
+    height: 38px;
+    margin-top: 20px;
+    background-image: url(../images/may.png);
+}
+
+.f_box {
+    clear: both;
+    height: 460px;
+    border: 1px solid #ccc;
+    margin-bottom: 90px;
+}
+
+.f_box ul li input {
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: '微软雅黑';
+    border: none;
+    color: #cccccc;
+    padding-left: 64px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline-style: none;
+}
+
+.f_box ul {
+    width: 374px;
+    margin: 0 auto;
+}
+
+.f_box li {
+    margin: 30px 0;
+    width: 374px;
+    height: 42px;
+position: relative;
+}
+.f_box li span {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    font-size: 14px;
+    color:red;
+    display: none;
+}
+.f_box li span.phonError{
+    right: -120px;
+}
+.f_box li span.pwdError{
+    right: -93px;
+}
+
+.f_box .f_lock {
+    width: 23px;
+    height: 24px;
+    background: url(../images/lock.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.f_box #f_text_code {
+    width: 131px;
+}
+
+.f_box .f_click {
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: '微软雅黑';
+    color: #cccccc;
+    cursor: pointer;
+}
+
+.f_box ul p {
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 700;
+}
+
+.f_regist {
+    width: 277px;
+    height: 42px;
+    background-color: #A90000;
+    text-align: center;
+    color: #fff;
+    padding-left: 0;
+    line-height: 42px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.f_box .f_login {
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.f_box .f_login a {
+    color: #A90000;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.f_foot {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.f_foot .f_company {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.disabled{
+	cursor:  not-allowed!important;
+	background-color: #eee!important;
+}

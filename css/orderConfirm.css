@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.yg_wxs_container {
+  /*选择收货地址*/
+  /*商品信息*/ }
+  .yg_wxs_container .yg_wxs_container_shippingAddress {
+    background-color: #fff;
+    height: 226px;
+    padding: 0 0 0 9px; }
+    .yg_wxs_container .yg_wxs_container_shippingAddress h2 {
+      height: 57px;
+      line-height: 57px;
+      font-size: 18px;
+      color: #3F3F3F; }
+    .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info {
+      position: relative;
+      width: 235px;
+      height: 108px;
+      margin-right: 12px;
+      background-color: #ddd;
+      float: left;
+      padding-left: 15px;
+      box-sizing: border-box;
+      font-size: 12px; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_title {
+        height: 34px; }
+        .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_title .yg_wxs_container_shippingAddress_info_title_city {
+          color: #000;
+          float: left;
+          line-height: 34px;
+          padding-right: 15px; }
+        .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_title .yg_wxs_container_shippingAddress_info_title_name {
+          color: #666666;
+          float: left;
+          line-height: 34px; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_line {
+        width: 200px;
+        height: 1px;
+        background-color: #DDDDDD; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_address {
+        height: 30px;
+        line-height: 30px;
+        color: #666666; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_phone {
+        height: 8px;
+        color: #666666; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_editAddress {
+        height: 33px;
+        line-height: 33px; }
+        .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_editAddress a {
+          color: #F56627; }
+      .yg_wxs_container .yg_wxs_container_shippingAddress ul li.yg_wxs_container_shippingAddress_info .yg_wxs_container_shippingAddress_info_defaultAddress {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 52px;
+        height: 18px;
+        background-color: #DCDCDC;
+        color: #fff;
+        text-align: center;
+        line-height: 18px; }
+  .yg_wxs_container .yg_wxs_container_productInfomation {
+    box-sizing: border-box;
+    padding: 0 9px 0 9px;
+    margin-top: 19px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    background-color: #F0F0F0;
+    overflow: hidden;
+    /*总价*/ }
+    .yg_wxs_container .yg_wxs_container_productInfomation h2 {
+      height: 60px;
+      line-height: 60px;
+      color: #666666; }
+    .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap {
+      height: 369px; }
+      .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap h3 {
+        height: 40px;
+        color: #000;
+        font-size: 16px; }
+      .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach {
+        background-color: #EDEDED;
+        height: 319px; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proName {
+          height: 50px;
+          padding-top: 5px; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proName ul li {
+            float: left;
+            width: 15%;
+            text-align: center;
+            color: #000; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proName ul li:first-child {
+            width: 40%; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo {
+          box-sizing: border-box;
+          height: 119px;
+          padding-bottom: 18px;
+          border-bottom: 1px solid #ddd; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo div {
+            width: 15%;
+            float: left;
+            text-align: center;
+            height: 100%; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo div:first-child {
+            width: 40%; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo div:nth-child(3), .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo div:nth-child(4), .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo div:nth-child(5) {
+            line-height: 100px; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_number {
+            line-height: 100px; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name div {
+            float: left; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name .yg_wxs_container_productInfomationEachWrap_proInfo_name_l {
+            margin-left: 28px;
+            width: 25%; }
+            .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name .yg_wxs_container_productInfomationEachWrap_proInfo_name_l img {
+              width: 82px;
+              height: 100px; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name .yg_wxs_container_productInfomationEachWrap_proInfo_name_r {
+            margin-top: 33px;
+            width: 65%;
+            font-size: 12px; }
+            .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name .yg_wxs_container_productInfomationEachWrap_proInfo_name_r .yg_wxs_container_productInfomationEachWrap_proInfo_name_r_content {
+              color: #000;
+              margin-bottom: 10px; }
+            .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo .yg_wxs_container_productInfomationEachWrap_proInfo_name .yg_wxs_container_productInfomationEachWrap_proInfo_name_r .yg_wxs_container_productInfomationEachWrap_proInfo_name_r_type {
+              padding-left: 5px; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier .info_red, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon .info_red, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees .info_red, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree .info_red {
+          color: red; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier .info_gray, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon .info_gray, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees .info_gray, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree .info_gray {
+          color: #999999; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier .info_green, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon .info_green, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees .info_green, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree .info_green {
+          color: #009999; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier ul, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon ul, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees ul, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree ul {
+          margin-left: 25px; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier ul li, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon ul li, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees ul li, .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree ul li {
+            width: 15%;
+            float: left;
+            text-align: center;
+            font-size: 16px;
+            line-height: 32px;
+            color: #000; }
+          .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier ul li:nth-of-type(1), .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon ul li:nth-of-type(1), .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees ul li:nth-of-type(1), .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree ul li:nth-of-type(1) {
+            width: 70%;
+            text-align: left; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier {
+          height: 32px;
+          border-bottom: 1px solid #ddd; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon {
+          height: 37px;
+          border-bottom: 1px solid #ddd; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees {
+          height: 32px;
+          border-bottom: 1px solid #ddd; }
+        .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_productInfomationEachWrap .yg_wxs_container_productInfomationEach .yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree {
+          height: 32px; }
+    .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_totalPrice {
+      height: 104px;
+      padding-top: 33px;
+      color: #000000;
+      float: right; }
+      .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_totalPrice div {
+        float: left; }
+      .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_totalPrice .total_red {
+        color: red;
+        font-size: 30px; }
+      .yg_wxs_container .yg_wxs_container_productInfomation .yg_wxs_container_totalPrice input {
+        color: #fff;
+        background-color: red;
+        width: 121px;
+        height: 51px;
+        margin-left: 20px;
+        margin-top: -50px;
+        display: inline-block; }
+
+/*# sourceMappingURL=orderConfirm.css.map */

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单确认</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/orderConfirm.css"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/ca_common_head.css">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/template-native.js"></script>
+    <script type="text/template" id='templateShipping'>
+        <li class="yg_wxs_container_shippingAddress_info">
+            <div class="yg_wxs_container_shippingAddress_info_title">
+                <div class="yg_wxs_container_shippingAddress_info_title_city"><%=receiver_city%></div>
+                <div class="yg_wxs_container_shippingAddress_info_title_name">(<%=receiver_name%> 收)</div>
+            </div>
+            <div class="yg_wxs_container_shippingAddress_info_line"></div>
+            <div class="yg_wxs_container_shippingAddress_info_address"><%=receiver_address%></div>
+            <div class="yg_wxs_container_shippingAddress_info_phone">+86 <%=receiver_mobile%></div>
+        </li>
+    </script>
+    <script type="text/template" id='templateProductInfomationEachWrap'>
+        <div class="yg_wxs_container_productInfomationEachWrap">
+            <h3>美国仓库直邮</h3>
+            <div class="yg_wxs_container_productInfomationEach">
+                <div class="yg_wxs_container_productInfomationEachWrap_proName">
+                    <ul class="clearfix">
+                        <li>商品</li>
+                        <li>数量</li>
+                        <li>重量</li>
+                        <li>单价(元)</li>
+                        <li>金额(元)</li>
+                    </ul>
+                </div>
+                <div class="yg_wxs_container_productInfomationEachWrap_proInfo">
+                    <div class="yg_wxs_container_productInfomationEachWrap_proInfo_name clearfix">
+                        <div class="yg_wxs_container_productInfomationEachWrap_proInfo_name_l">
+                            <img src=<%=pic_path%> alt="">
+                        </div>
+                        <div class="yg_wxs_container_productInfomationEachWrap_proInfo_name_r">
+                            <p class="yg_wxs_container_productInfomationEachWrap_proInfo_name_r_content">
+                                <%=title%>
+                            </p>
+                            <p class="yg_wxs_container_productInfomationEachWrap_proInfo_name_r_type">
+                                颜色规格：深棕，尺码规格：中号
+                            </p>
+                        </div>
+                    </div>
+                    <div class="yg_wxs_container_productInfomationEachWrap_proInfo_number"><%=num%></div>
+                    <div class="yg_wxs_container_productInfomationEachWrap_proInfo_weight">0.5KG</div>
+                    <div class="yg_wxs_container_productInfomationEachWrap_proInfo_price"><%=price%></div>
+                    <div class="yg_wxs_container_productInfomationEachWrap_proInfo_totalPrice"><%=price%></div>
+                </div>
+                <div class="yg_wxs_container_productInfomationEachWrap_proInfo_other_Courier">
+                    <ul>
+                        <li>普通快递&nbsp;&nbsp;<span class="info_red">0.00元</span>&nbsp;&nbsp;<span class="info_gray">全场包邮美国直邮物流记录全程跟踪</span></li>
+                        <li>运费</li>
+                        <li>￥0.00</li>
+                    </ul>
+                </div>
+                <div class="yg_wxs_container_productInfomationEachWrap_proInfo_other_coupon">
+                    <ul>
+                        <li><span class="info_red">优惠卷</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="info_green">无</span></li>
+                        <li>优惠金额</li>
+                        <li>￥0.00</li>
+                    </ul>
+                </div>
+                <div class="yg_wxs_container_productInfomationEachWrap_proInfo_other_TaxesFees">
+                    <ul>
+                        <li>税费&nbsp;&nbsp;<span class="info_red">0.00元</span>&nbsp;&nbsp;<span class="info_gray">全场包税</span></li>
+                        <li>税费</li>
+                        <li>0.00</li>
+                    </ul>
+                </div>
+                <div class="yg_wxs_container_productInfomationEachWrap_proInfo_other_totalFree">
+                    <ul>
+                        <li style="visibility: hidden">1</li>
+                        <li>合计</li>
+                        <li class="info_red"><%=total_fee%></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/javascript" src="js/orderConfirm.js"></script>
+
+</head>
+<body>
+<div class="ca_common_head">
+    <div class="oy_top">
+        <div class="oy_header w">
+            <div class="oy_header_left fl">
+                <!--<span>欢迎来到优购网！</span>-->
+                <!--<a href="">请登录</a>-->
+                <!--<a href="">免费注册</a>-->
+            </div>
+            <div class="ca_header_left fl">
+                <span>你好！<i>陈安</i></span>
+                <s>|</s>
+                <a href="">退出</a>
+            </div>
+
+            <div class="oy_header_right fr">
+                <ul>
+                    <li><a href="#">我的订单</a><span class="arr_b"></span></li>
+                    <li><a href="#">我的优购</a><span class="arr_b"></span></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">消息</a></li>
+                    <li><a href="#">手机版</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="oy_search w">
+        <div class="oy_logo fl"><h1><a href="#">乐购</a></h1></div>
+        <div class="ca_list">
+            <a href="#" class="ca_list_select">我的购物车</a>
+            <a href="#">提交订单</a>
+            <a href="#">选择支付方式</a>
+        </div>
+    </div>
+</div>
+    <div class="yg_wxs_container w">
+        <!--<div class="yg_wxs_container_title"></div>-->
+        <div class="yg_wxs_container_shippingAddress">
+            <h2>选择收货地址</h2>
+            <ul class="yg_wxs_container_shippingAddress_infoWrap">
+            </ul>
+
+        </div>
+        <div class="yg_wxs_container_productInfomation w">
+            <h2>确认商品信息</h2>
+                <div class="yg_wxs_container_productInfomationContainer">
+
+                </div>
+            <div class="yg_wxs_container_totalPrice clearfix">
+                <div>总金额：<span class="total_red">￥5596.00</span></div>
+                <div><input type="submit" value="提交订单"></div>
+            </div>
+        </div>
+    </div>
+<!--footer-->
+<div class="oy_footer clearfix">
+    <div class="w">
+        <div class="oy_footer_top clearfix">
+            <div class="oy_footer_left fl">
+                <dl class="fl">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">注册与登录</a></dd>
+                    <dd><a href="#">账户信息维护</a></dd>
+                    <dd><a href="#">购物流程</a></dd>
+                    <dd><a href="#">会员体系</a></dd>
+                    <dd><a href="#">常见问题</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>订单服务</dt>
+                    <dd><a href="#">订单状态说明</a></dd>
+                    <dd><a href="#">自动取消订单</a></dd>
+                    <dd><a href="#">上传身份证</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>支付与配送</dt>
+                    <dd><a href="#">支付方式</a></dd>
+                    <dd><a href="#">优惠券和红包</a></dd>
+                    <dd><a href="#">如何提现</a></dd>
+                    <dd><a href="#">配送方式</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>售后服务</dt>
+                    <dd><a href="#">消费维权</a></dd>
+                    <dd><a href="#">纠纷处理</a></dd>
+                    <dd><a href="#">退货规则</a></dd>
+                </dl>
+            </div>
+            <div class="oy_footer_right fr">
+                <a href="#" class="oy_footer_rt"></a>
+                <p>关注我们</p>
+                <a href="#" class="oy_footer_weibo"></a>
+                <a href="#" class="oy_footer_weixin"></a>
+
+            </div>
+        </div>
+        <div class="oy_footer_links">
+            <a href="#">关于优购</a><span>|</span>
+            <a href="#">优购招聘</a><span>|</span>
+            <a href="#">网站地图</a><span>|</span>
+            <a href="#">所有帮助</a><span>|</span>
+            <a href="#">海外招商中心</a><span>|</span>
+            <a href="#">扫货买手规则</a><span>|</span>
+            <a href="#">买家常见问题</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

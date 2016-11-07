@@ -1,0 +1,532 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #F5F5F5;
+}
+i,em{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.wzq_hidden{
+    display: none;
+}
+.wzq_show{
+    height: 10000px;
+    width: 1000px;
+    display: block;
+    text-align: center;
+}
+.wzq_color_red{
+    color: #a90000;
+}
+.wzq_color_red_1{
+    color: red;
+}
+.wzq_color_white{
+    color: #FFFFFF;
+}
+.wzq_color_gray{
+    color: gray;
+    font-family: "Microsoft yahei";
+}
+.wzq_left{
+    float: left;
+}
+.wzq_right{
+    float: right;
+}
+.wzq_marginRight{
+    margin-right: 15px;
+}
+.wzq_marginLeft{
+    margin-left: 22px;
+}
+.wzq_main{
+    width: 1000px;
+    margin: 0px auto;
+    /*background-color: #FFFFFF;*/
+}
+.wzq_topLocation{
+    font-size: 10px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 3px solid #F6F6F6;
+    background-color: #FFFFFF;
+    /*font-weight: bolder;*/
+}
+.wzq_topLocation a{
+    text-decoration: none;
+    color: #666666;
+    padding: 0px 5px 0px 10px;
+}
+.wzq_topLocation span{
+    margin-right: 10px;
+}
+.wzq_product{
+    /* margin-left: 90px; */
+    height: 415px;
+    padding: 15px 15px 0px 15px;
+    background-color: #FFFFFF;
+    /*padding-left: 90px;*/
+    /*position: relative;*/
+}
+.wzq_product_left_top{
+    width: 213px;
+    height: 287px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 7px;
+    margin-right: 15px;
+    position: relative;
+}
+.wzq_small_img img{
+    width: 213px;
+    height: 287px;
+}
+.wzq_big_img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #eeeeee;
+    right: -300px;
+    top: 50px;
+    display: none;
+    overflow: hidden;
+}
+.wzq_big_img img{
+    width: 380px;
+    height: 380px;
+}
+.mask{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: lightskyblue;
+    opacity: 0.3;
+    display: none;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+}
+.wzq_product_left_bottom div{
+    float: left;
+    height: 50px;
+    width: 38px;
+    margin: 7px;
+    border: 1px solid #FFFFFF;
+}
+.wzq_product_left_bottom:hover div{
+    border: 1px solid red;
+}
+.wzq_product_left_bottom img{
+    height: 50px;
+    width: 38px;
+}
+.wzq_product_title{
+    padding-left: 20px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: bolder;
+    /*margin-bottom: 12px;*/
+}
+.wzq_product_price{
+    margin-top: 12px;
+    height: 88px;
+    background-color: #F4F4F4;
+    width: 534px;
+    padding: 15px;
+    font-family: "Microsoft yahei";
+    position: relative;
+    font-size: 12px;
+}
+.wzq_price_first span:nth-child(1){
+    background-color: #A90000;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 1px;
+}
+.wzq_price_first span:nth-child(3){
+    margin-right: 35px;
+}
+.wzq_price_first .go{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #a90000;
+    line-height: 14px;
+    border-radius: 50%;
+    right: 19px;
+    top: 15px;
+    color: white;
+    text-align: center;
+    /*font-weight: bold;*/
+    font-family: "宋体";
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wzq_price_first{
+    margin-bottom: 5px;
+}
+.wzq_price_second span:nth-child(2){
+    margin-left: 22px;
+    text-decoration: line-through;
+    padding: 0px 10px;
+    font-weight: bolder;
+}
+.wzq_price_second{
+    margin-bottom: 5px;
+}
+.wzq_price_third{
+    margin-bottom: 8px;
+}
+.wzq_price_third span:nth-child(2){
+    width: 465px;
+    margin-left: 20px;
+    font-size: 21px;
+    color: #a90000;
+    float: left;
+    padding-bottom: 8px;
+    border-bottom: 2px solid red;
+}
+.wzq_price_third .hot{
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 0px 5px;
+    font-weight: bold;
+    box-shadow:none;
+    border-radius: 3px;
+}
+.wzq_hot{
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    padding: 0px 5px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px gray,
+    0px 0px 20px red,
+    0px 0px 30px red;
+    border-radius: 3px;
+}
+.wzq_price_fourth{
+    font-size: 10px;
+    margin-left: 62px;
+}
+.wzq_price_fourth a{
+    font-size: 10px;
+    font-weight: bolder;
+}
+.wzq_price_fourth span{
+    margin-top: 5px;
+}
+.wzq_product_other{
+    height: 53px;
+    border-bottom: 2px solid darkgray;
+    padding-top: 16px;
+    padding-left: 18px;
+    font-size: 12px;
+    font-family: "Microsoft yahei";
+}
+.wzq_product_other_first{
+    margin-bottom: 10px;
+}
+.wzq_product_other_first span:nth-child(1){
+    margin-right: 37px;
+}
+.wzq_product_other_second span:nth-child(1){
+    margin-right: 37px;
+}
+.wzq_order{
+    width: 100%;
+    font-size: 12px;
+    height: 15px;
+    border-bottom: 2px solid darkgray;
+    padding: 12px 0px;
+}
+.wzq_order span{
+    width: 170px;
+    padding: 0px 54px;
+    border-right: 2px solid gray;
+}
+.wzq_order span:nth-child(3){
+    border-right: none;
+}
+.wzq_order i{
+    margin-left: 3px;
+}
+.wzq_product_infor{
+    height: 50px;
+    padding: 13px 0px 13px 17px;
+    font-size: 12px;
+    font-family: "Microsoft yahei";
+    /*border-bottom: 1px solid gray;*/
+}
+.wzq_product_infor_first{
+    margin-bottom: 18px;
+    line-height: 17px;
+    height: 17px;
+}
+.wzq_product_infor_first .wzq_product_num{
+    border: 2px solid #a90000;
+}
+.wzq_product_infor_second{
+    line-height: 17px;
+    height: 17px;
+}
+.wzq_product_infor_second a{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid gray;
+    color: black;
+}
+.wzq_product_infor_first span:nth-child(2){
+    width: 50px;
+    height: 17px;
+    /*background-color: #b5b5b5;*/
+    display: inline-block;
+    margin-left: 10px;
+}
+.wzq_product_infor_second span:nth-child(1){
+    margin-right: 62px;
+}
+.wzq_product_no1{
+    padding: 0px 10px;
+    border:1px solid gray;
+}
+.wzq_product_no a:nth-child(2){
+    border-right: none;
+    border-left: none;
+}
+.wzq_product_no a:nth-child(3){
+    margin-right: 10px;
+}
+.wzq_sure a{
+    font-size: 20px;
+    display: inline-block;
+    width: 131px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Microsoft yahei";
+    transition: all 1s;
+}
+.wzq_sure a:hover{
+    border-radius: 10px;
+}
+.wzq_sure .wzq_buy{
+    background-color:white;
+    color: #a90000;
+    margin-left: 17px;
+    margin-right: 40px;
+    border: 1px solid red;
+}
+.wzq_sure .wzq_joinCar{
+    border: 1px solid #a90000;
+    background-color:#a90000;
+    color: #FFFFFF;
+}
+.wzq_product_icon{
+    text-align: center;
+    width: 160px;
+    height: 300px;
+    /*border: 1px solid #EEEEEE;*/
+    font-size: 12px;
+    font-family: "Microsoft yahei";
+}
+.wzq_product_icon a{
+    font-size: 12px;
+    color: #0070BC;
+}
+.wzq_product_icon i{
+    color: white;
+    background-color: red;
+    padding: 2px;
+    border-radius: 3px;
+}
+.wzq_product_icon_top{
+    width: 160px;
+    height: 100px;
+    line-height: 100px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 7px;
+}
+.wzq_product_icon_bottom_title{
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.wzq_product_icon_bottom_title a{
+    margin-top: 3px;
+}
+.wzq_product_icon_top img{
+    width: 120px;
+    height: 80px;
+}
+.wzq_solder_infor div{
+    width: 69px;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+   padding-right: 1px;
+    float: left;
+    border: 1px solid #CDCDCD;
+    background-color: #F9F9F9;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+}
+.wzq_solder_infor div:nth-child(2){
+    margin-left: 11px;
+}
+.wzq_solder_infor div:nth-child(4){
+    margin-left: 11px;
+}
+.wzq_solder_infor div:hover{
+    background-color: #EEEEEE;
+}
+.wzq_solder_infor em{
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: url("../images/1.gif") 0 0 no-repeat;
+}
+.wzq_guestLike{
+    margin-top: 25px;
+    height: 219px;
+    background-color: #FFFFFF;
+    padding: 18px 15px 9px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.wzq_guestLike_title_left{
+    font-family: "Microsoft yahei";
+    font-size: 20px;
+    color: gray;
+}
+.wzq_guestLike_title_right i{
+    width: 24px;
+    height: 21px;
+    background: url("../images/change.png");
+    position: absolute;
+    right: 68px;
+    top: 16px;
+}
+.wzq_guestLike_content{
+    /*padding-left: 90px;*/
+    font-size: 12px;
+}
+.wzq_guestLike_content .wzq_color_red_1{
+    font-size: 20px;
+}
+.wzq_guestLike_content li{
+    width: 191px;
+    border: 1px solid #FFFFFF;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+.wzq_guestLike_content_img img{
+    width: 152px;
+    height: 157px;
+}
+.wzq_proDetails{
+    margin-top: 25px;
+    background-color: #FFFFFF;
+}
+.wzq_proDetails_left{
+    height: 10000px;
+    text-align: center;
+    width: 1000px;
+    /*position: relative;*/
+    /*display: none;*/
+}
+.wzq_proDetails_right{
+    width: 1000px;
+    height: 10000px;
+    display: none;
+    text-align: center;
+}
+.wzq_proDetails a{
+    color: gray;
+}
+.wzq_proDetails span{
+    background-color: white;
+    font-size: 18px;
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    width: 100px;
+    /*margin-top: 8px;*/
+    /*margin-left: 10px;*/
+    text-align: center;
+    /*margin-right: 20px;*/
+    /*border: 1px solid #eeeeee;*/
+}
+.wzq_tab_active{
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+}
+.wzq_proDetails_left_title{
+    font-size: 20px;
+    font-family: "Microsoft yahei";
+    width: 328px;
+    height: 42px;
+    background-color: #eeeeee;
+    text-align: center;
+    line-height: 42px;
+    left: 50%;
+    position: relative;
+    display: block;
+    margin-left: -180px;
+    margin-bottom: 20px;
+    z-index: 12;
+}
+.wzq_line_product{
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    top: 1px;
+    left: 122px;
+}
+.wzq_line{
+    width: 1000px;
+    height: 0px;
+    color: black;
+    position: absolute;
+    left:-330px;
+    top: 19px;
+    border: 2px solid #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+

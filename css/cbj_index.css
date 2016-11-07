@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*ugo导航开始*/
+.ugo_nav {
+  width: 100%;
+  height: 37px;
+  /*border: 1px solid #B8B8B8;*/
+  background-color: #f5f5f5;
+}
+.ugo_nav .ugo_all_category {
+  width: 160px;
+  height: 36px;
+  background-color: #000;
+  line-height: 37px;
+  text-align: center;
+  float: left;
+  border-bottom: 2px solid #000;
+  position: relative;
+}
+.ugo_nav .ugo_all_category > a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  height: 37px;
+  font-weight: normal;
+  padding-left: 60px;
+  text-align: left;
+  font-size: 16px;
+}
+.ugo_nav .ugo_all_category > a i {
+  position: absolute;
+  left: 34px;
+  top: 8px;
+  width: 22px;
+  height: 23px;
+  background: url("../images/r2_c2.png");
+}
+.ugo_nav .ugo_all_category .ugo_cat_list {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ugo_nav .ugo_all_category .ugo_cat_list li {
+  margin-left: 0px;
+  padding-left: 45px;
+  height: 80px;
+  line-height: 80px;
+  width: 115px;
+  text-align: left;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list li > a {
+  color: #fff;
+  text-decoration: none;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list li i {
+  display: inline-block;
+  float: right;
+  width: 20px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 8px;
+  vertical-align: text-bottom;
+  background: url("../images/jx.png") no-repeat 7px 13px;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list li:hover {
+  cursor: pointer;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab {
+  position: absolute;
+  z-index: 9999;
+  top: 6px;
+  left: 161px;
+  background-color: #fff;
+  width: 704px;
+  min-height: 300px;
+  display: none;
+  padding-left: 5px;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab .ugo_cat_box {
+  float: left;
+  width: 48%;
+  height: 100%;
+  text-align: left;
+  padding-left: 10px;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab .ugo_cat_box h2 {
+  padding-left: 22px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: #000;
+  border-bottom: 1px solid #747474;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab .ugo_cat_box .ugo_cat_info {
+  line-height: 36px;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab .ugo_cat_box .ugo_cat_info a {
+  color: #747474;
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 19px;
+  padding-left: 19px;
+}
+.ugo_nav .ugo_all_category .ugo_cat_list .ugo_cat_tab .ugo_cat_box .ugo_cat_info span {
+  vertical-align: baseline;
+}
+.ugo_nav ul {
+  float: left;
+}
+.ugo_nav ul li {
+  float: left;
+  height: 37px;
+  line-height: 37px;
+  margin-left: 38px;
+  font-size: 16px;
+}
+.ugo_nav ul li a {
+  color: #000;
+}
+/*ugo导航end*/
+/*ugo轮播banner开始*/
+.ugo_banner {
+  height: 400px;
+  border-top: 2px solid #000;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.ugo_banner .loading {
+  height: 400px;
+  background: url(../images/load.gif) no-repeat center center;
+}
+.ugo_banner ul {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 99999px;
+  height: 100%;
+}
+.ugo_banner ul li {
+  float: left;
+  height: 100%;
+}
+.ugo_banner .arrow {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 80%;
+  height: 68px;
+  margin-top: -34px;
+  display: none;
+}
+.ugo_banner .arrow .arrowL {
+  float: left;
+  height: 68px;
+  width: 38px;
+  background: url("../images/l_arrow.png") no-repeat 8px 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.ugo_banner .arrow .arrowR {
+  float: right;
+  height: 68px;
+  width: 38px;
+  background: url("../images/r_arrow.png") no-repeat 8px 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.ugo_banner .dot {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  height: 35px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -o-border-radius: 18px;
+  -ms-border-radius: 18px;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-left: 10px;
+}
+.ugo_banner .dot > a {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background-color: rgba(195, 143, 153, 0.8);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+.ugo_banner .dot .active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/*ugo轮播bannerend*/
